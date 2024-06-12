@@ -1,0 +1,12 @@
+# Build directory
+[Bb]in/
+
+# Intermidate directory
+[Ii]ntermidate/
+
+# Cache/Settings directory
+.vs/
+.vscode/
+
+# User specific files
+*.user
