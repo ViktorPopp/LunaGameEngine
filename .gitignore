@@ -10,3 +10,14 @@
 
 # User specific files
 *.user
+
+# Project files
+Makefile
+*.make
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.vcproj*
+*.vcxproj*
+*.workspace
+*.project
