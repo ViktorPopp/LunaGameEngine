@@ -10,6 +10,10 @@ extern luna::Application* luna::CreateApplication();
 
 int main(int argc, char** argv[])
 {
+	// TODO: Move into sepreate function
+	luna::Log::Init();
+	LUNA_ENGINE_INFO("Successfully initialized LunaEngine");
+
 	auto application = luna::CreateApplication();
 	return application->Run();
 }

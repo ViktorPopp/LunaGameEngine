@@ -1,5 +1,6 @@
 #include "LunaEngine.h"
-#include "Luna/Core/EntryPoint.h"
+
+void SandboxFunc();
 
 class Sandbox : public luna::Application {
 public:
@@ -13,5 +14,9 @@ public:
 };
 
 luna::Application* luna::CreateApplication() {
+	SandboxFunc();
 	return new Sandbox();
+}
+
+void SandboxFunc() {
 }
